@@ -1,13 +1,10 @@
 """
 The Ledger - Combined Market Data Fetcher
 Pulls US markets, gold, crude, and USD/INR from Alpha Vantage (free),
-and Nifty 50 / Sensex from Yahoo Finance (free, no key needed).
+and Nifty 50 / Sensex / all 50 Nifty stocks from Yahoo Finance (free).
 
 Saves everything into one market-data.json file, meant to run automatically
 via GitHub Actions (hourly recommended).
-
-IMPORTANT: Your Alpha Vantage key is read from an environment variable,
-never hardcoded. Set it as ALPHA_VANTAGE_API_KEY in GitHub Secrets.
 
 Install requirements first:
     pip install requests yfinance --break-system-packages
@@ -93,6 +90,84 @@ def fetch_nifty_sensex():
     return result
 
 
+NIFTY_50_TICKERS = {
+    "RELIANCE.NS": "Reliance Industries",
+    "HDFCBANK.NS": "HDFC Bank",
+    "BHARTIARTL.NS": "Bharti Airtel",
+    "ICICIBANK.NS": "ICICI Bank",
+    "SBIN.NS": "State Bank of India",
+    "TCS.NS": "Tata Consultancy Services",
+    "BAJFINANCE.NS": "Bajaj Finance",
+    "LT.NS": "Larsen & Toubro",
+    "HINDUNILVR.NS": "Hindustan Unilever",
+    "SUNPHARMA.NS": "Sun Pharmaceutical",
+    "MARUTI.NS": "Maruti Suzuki",
+    "ADANIPORTS.NS": "Adani Ports",
+    "INFY.NS": "Infosys",
+    "ADANIENT.NS": "Adani Enterprises",
+    "AXISBANK.NS": "Axis Bank",
+    "TITAN.NS": "Titan Company",
+    "KOTAKBANK.NS": "Kotak Mahindra Bank",
+    "M&M.NS": "Mahindra & Mahindra",
+    "ITC.NS": "ITC",
+    "NTPC.NS": "NTPC",
+    "ULTRACEMCO.NS": "UltraTech Cement",
+    "HCLTECH.NS": "HCL Technologies",
+    "BEL.NS": "Bharat Electronics",
+    "TATAMOTORS.NS": "Tata Motors",
+    "WIPRO.NS": "Wipro",
+    "ASIANPAINT.NS": "Asian Paints",
+    "BAJAJFINSV.NS": "Bajaj Finserv",
+    "POWERGRID.NS": "Power Grid",
+    "TATASTEEL.NS": "Tata Steel",
+    "ONGC.NS": "ONGC",
+    "COALINDIA.NS": "Coal India",
+    "NESTLEIND.NS": "Nestle India",
+    "JSWSTEEL.NS": "JSW Steel",
+    "GRASIM.NS": "Grasim Industries",
+    "TECHM.NS": "Tech Mahindra",
+    "HINDALCO.NS": "Hindalco Industries",
+    "DRREDDY.NS": "Dr Reddy's Labs",
+    "CIPLA.NS": "Cipla",
+    "SBILIFE.NS": "SBI Life Insurance",
+    "HDFCLIFE.NS": "HDFC Life Insurance",
+    "APOLLOHOSP.NS": "Apollo Hospitals",
+    "DIVISLAB.NS": "Divi's Laboratories",
+    "BAJAJ-AUTO.NS": "Bajaj Auto",
+    "BRITANNIA.NS": "Britannia Industries",
+    "EICHERMOT.NS": "Eicher Motors",
+    "HEROMOTOCO.NS": "Hero MotoCorp",
+    "SHRIRAMFIN.NS": "Shriram Finance",
+    "TATACONSUM.NS": "Tata Consumer Products",
+    "TRENT.NS": "Trent",
+    "INDUSINDBK.NS": "IndusInd Bank",
+    "UPL.NS": "UPL",
+}
+
+
+def fetch_all_nifty50_stocks():
+    stocks = {}
+    try:
+        import yfinance as yf
+        tickers = list(NIFTY_50_TICKERS.keys())
+        data = yf.download(tickers, period="1d",
+                           group_by="ticker", progress=False)
+
+        for symbol, name in NIFTY_50_TICKERS.items():
+            try:
+                last_close = data[symbol]["Close"].iloc[-1]
+                stocks[symbol] = {
+                    "name": name,
+                    "price": round(float(last_close), 2),
+                }
+            except Exception:
+                stocks[symbol] = {"name": name, "status": "no_data"}
+    except Exception as e:
+        stocks["_error"] = str(e)
+
+    return stocks
+
+
 def main():
     now = datetime.now(timezone.utc)
 
@@ -121,6 +196,8 @@ def main():
               f"to stay under the free daily limit. Keeping previous values.")
 
     result["markets"].update(fetch_nifty_sensex())
+
+    result["nifty_50_stocks"] = fetch_all_nifty50_stocks()
 
     result["markets"]["india_cpi"] = {"status": "manual_update_monthly_mospi"}
     result["markets"]["india_wpi"] = {"status": "manual_update_monthly_mospi"}

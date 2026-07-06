@@ -1,0 +1,34 @@
+name: Update Market Data
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # runs every hour, on the hour (UTC time)
+  workflow_dispatch:        # lets you manually trigger it from GitHub too
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests yfinance
+
+      - name: Run market data script
+        env:
+          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+        working-directory: TET
+        run: python Websit.py
+
+      - name: Commit updated data
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add TET/market-data.json
+          git commit -m "Auto-update market data" || echo "No changes to commit"
+          git push

@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-14T07:08:04.195468+00:00",
+  "last_updated_utc": "2026-07-14T09:52:03.256861+00:00",
   "markets": {
     "dow_jones": {
       "price": "525.7800",
@@ -25,10 +25,10 @@
       "last_refreshed": "2026-07-13 18:29:48"
     },
     "nifty_50": {
-      "price": 24067.0
+      "price": 24045.7
     },
     "sensex": {
-      "price": 77165.84
+      "price": 77121.06
     },
     "india_cpi": {
       "status": "manual_update_monthly_mospi"
@@ -40,95 +40,95 @@
   "nifty_50_stocks": {
     "RELIANCE.NS": {
       "name": "Reliance Industries",
-      "price": 1300.1
+      "price": 1292.8
     },
     "HDFCBANK.NS": {
       "name": "HDFC Bank",
-      "price": 809.55
+      "price": 809.05
     },
     "BHARTIARTL.NS": {
       "name": "Bharti Airtel",
-      "price": 1932.6
+      "price": 1934.2
     },
     "ICICIBANK.NS": {
       "name": "ICICI Bank",
-      "price": 1404.6
+      "price": 1408.6
     },
     "SBIN.NS": {
       "name": "State Bank of India",
-      "price": 1021.2
+      "price": 1013.0
     },
     "TCS.NS": {
       "name": "Tata Consultancy Services",
-      "price": 2184.4
+      "price": 2205.0
     },
     "BAJFINANCE.NS": {
       "name": "Bajaj Finance",
-      "price": 1004.3
+      "price": 1006.7
     },
     "LT.NS": {
       "name": "Larsen & Toubro",
-      "price": 3857.3
+      "price": 3848.4
     },
     "HINDUNILVR.NS": {
       "name": "Hindustan Unilever",
-      "price": 2125.7
+      "price": 2119.0
     },
     "SUNPHARMA.NS": {
       "name": "Sun Pharmaceutical",
-      "price": 1944.8
+      "price": 1943.8
     },
     "MARUTI.NS": {
       "name": "Maruti Suzuki",
-      "price": 13545.0
+      "price": 13486.0
     },
     "ADANIPORTS.NS": {
       "name": "Adani Ports",
-      "price": 1825.0
+      "price": 1819.8
     },
     "INFY.NS": {
       "name": "Infosys",
-      "price": 1091.5
+      "price": 1092.0
     },
     "ADANIENT.NS": {
       "name": "Adani Enterprises",
-      "price": 3187.4
+      "price": 3187.6
     },
     "AXISBANK.NS": {
       "name": "Axis Bank",
-      "price": 1309.9
+      "price": 1317.1
     },
     "TITAN.NS": {
       "name": "Titan Company",
-      "price": 4576.8
+      "price": 4574.0
     },
     "KOTAKBANK.NS": {
       "name": "Kotak Mahindra Bank",
-      "price": 377.7
+      "price": 378.5
     },
     "M&M.NS": {
       "name": "Mahindra & Mahindra",
-      "price": 3108.0
+      "price": 3093.1
     },
     "ITC.NS": {
       "name": "ITC",
-      "price": 276.6
+      "price": 275.4
     },
     "NTPC.NS": {
       "name": "NTPC",
-      "price": 351.15
+      "price": 347.85
     },
     "ULTRACEMCO.NS": {
       "name": "UltraTech Cement",
-      "price": 11495.0
+      "price": 11501.0
     },
     "HCLTECH.NS": {
       "name": "HCL Technologies",
-      "price": 1178.6
+      "price": 1167.9
     },
     "BEL.NS": {
       "name": "Bharat Electronics",
-      "price": 409.1
+      "price": 409.9
     },
     "TATAMOTORS.NS": {
       "name": "Tata Motors",
@@ -136,111 +136,111 @@
     },
     "WIPRO.NS": {
       "name": "Wipro",
-      "price": 177.34
+      "price": 177.14
     },
     "ASIANPAINT.NS": {
       "name": "Asian Paints",
-      "price": 2646.7
+      "price": 2640.8
     },
     "BAJAJFINSV.NS": {
       "name": "Bajaj Finserv",
-      "price": 1870.2
+      "price": 1868.9
     },
     "POWERGRID.NS": {
       "name": "Power Grid",
-      "price": 283.25
+      "price": 286.0
     },
     "TATASTEEL.NS": {
       "name": "Tata Steel",
-      "price": 188.59
+      "price": 188.57
     },
     "ONGC.NS": {
       "name": "ONGC",
-      "price": 247.34
+      "price": 248.64
     },
     "COALINDIA.NS": {
       "name": "Coal India",
-      "price": 430.9
+      "price": 430.3
     },
     "NESTLEIND.NS": {
       "name": "Nestle India",
-      "price": 1431.1
+      "price": 1427.1
     },
     "JSWSTEEL.NS": {
       "name": "JSW Steel",
-      "price": 1243.8
+      "price": 1248.8
     },
     "GRASIM.NS": {
       "name": "Grasim Industries",
-      "price": 3111.0
+      "price": 3111.6
     },
     "TECHM.NS": {
       "name": "Tech Mahindra",
-      "price": 1496.1
+      "price": 1483.3
     },
     "HINDALCO.NS": {
       "name": "Hindalco Industries",
-      "price": 983.7
+      "price": 973.95
     },
     "DRREDDY.NS": {
       "name": "Dr Reddy's Labs",
-      "price": 1243.9
+      "price": 1245.7
     },
     "CIPLA.NS": {
       "name": "Cipla",
-      "price": 1451.9
+      "price": 1435.2
     },
     "SBILIFE.NS": {
       "name": "SBI Life Insurance",
-      "price": 1837.1
+      "price": 1838.6
     },
     "HDFCLIFE.NS": {
       "name": "HDFC Life Insurance",
-      "price": 556.8
+      "price": 555.5
     },
     "APOLLOHOSP.NS": {
       "name": "Apollo Hospitals",
-      "price": 8894.5
+      "price": 8906.5
     },
     "DIVISLAB.NS": {
       "name": "Divi's Laboratories",
-      "price": 7140.0
+      "price": 7196.0
     },
     "BAJAJ-AUTO.NS": {
       "name": "Bajaj Auto",
-      "price": 10204.0
+      "price": 10177.0
     },
     "BRITANNIA.NS": {
       "name": "Britannia Industries",
-      "price": 5283.5
+      "price": 5274.0
     },
     "EICHERMOT.NS": {
       "name": "Eicher Motors",
-      "price": 7253.0
+      "price": 7276.5
     },
     "HEROMOTOCO.NS": {
       "name": "Hero MotoCorp",
-      "price": 4918.2
+      "price": 4873.9
     },
     "SHRIRAMFIN.NS": {
       "name": "Shriram Finance",
-      "price": 1024.6
+      "price": 1013.5
     },
     "TATACONSUM.NS": {
       "name": "Tata Consumer Products",
-      "price": 1092.4
+      "price": 1097.3
     },
     "TRENT.NS": {
       "name": "Trent",
-      "price": 2864.3
+      "price": 2868.4
     },
     "INDUSINDBK.NS": {
       "name": "IndusInd Bank",
-      "price": 999.75
+      "price": 995.55
     },
     "UPL.NS": {
       "name": "UPL",
-      "price": 585.2
+      "price": 593.2
     }
   }
 }

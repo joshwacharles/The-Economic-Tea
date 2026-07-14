@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-14T22:52:52.621453+00:00",
+  "last_updated_utc": "2026-07-14T23:47:18.902226+00:00",
   "markets": {
     "dow_jones": {
       "price": "525.7800",
@@ -60,7 +60,7 @@
     },
     "TCS.NS": {
       "name": "Tata Consultancy Services",
-      "price": 2200.6
+      "price": 2188.6
     },
     "BAJFINANCE.NS": {
       "name": "Bajaj Finance",

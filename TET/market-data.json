@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-16T22:52:46.913810+00:00",
+  "last_updated_utc": "2026-07-16T23:54:03.273150+00:00",
   "markets": {
     "dow_jones": {
       "price": "525.9500",
@@ -104,7 +104,7 @@
     },
     "KOTAKBANK.NS": {
       "name": "Kotak Mahindra Bank",
-      "price": 377.15
+      "price": 376.5
     },
     "M&M.NS": {
       "name": "Mahindra & Mahindra",
@@ -124,7 +124,7 @@
     },
     "HCLTECH.NS": {
       "name": "HCL Technologies",
-      "price": 1187.4
+      "price": 1175.4
     },
     "BEL.NS": {
       "name": "Bharat Electronics",
@@ -240,7 +240,7 @@
     },
     "UPL.NS": {
       "name": "UPL",
-      "price": 625.85
+      "price": 619.85
     }
   }
 }

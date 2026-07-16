@@ -156,6 +156,11 @@ def fetch_all_nifty50_stocks():
         for symbol, name in NIFTY_50_TICKERS.items():
             try:
                 last_close = data[symbol]["Close"].iloc[-1]
+                # Guard against NaN/missing prices, which break strict JSON
+                # parsing in the browser (Python allows NaN, JSON does not).
+                if last_close is None or last_close != last_close:
+                    stocks[symbol] = {"name": name, "status": "no_data"}
+                    continue
                 stocks[symbol] = {
                     "name": name,
                     "price": round(float(last_close), 2),

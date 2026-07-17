@@ -1,34 +1,34 @@
 {
-  "last_updated_utc": "2026-07-17T10:06:50.307044+00:00",
+  "last_updated_utc": "2026-07-17T12:04:34.007022+00:00",
   "markets": {
     "dow_jones": {
-      "price": "525.9500",
-      "change": "1.2600",
-      "change_percent": "0.2401%"
+      "price": "524.8300",
+      "change": "-1.1200",
+      "change_percent": "-0.2129%"
     },
     "sp500": {
-      "price": "754.8100",
-      "change": "2.9800",
-      "change_percent": "0.3964%"
+      "price": "750.7200",
+      "change": "-4.0900",
+      "change_percent": "-0.5419%"
     },
     "crude_oil_wti": {
       "date": "2026-07-13",
       "value": "79.2"
     },
     "gold_gld_proxy": {
-      "price": "372.3500",
-      "change": "0.2000",
-      "change_percent": "0.0537%"
+      "price": "364.9600",
+      "change": "-7.3900",
+      "change_percent": "-1.9847%"
     },
     "usd_inr": {
-      "rate": "96.33581353",
-      "last_refreshed": "2026-07-16 18:02:38"
+      "rate": "96.27166291",
+      "last_refreshed": "2026-07-17 12:05:22"
     },
     "nifty_50": {
       "price": 24334.3
     },
     "sensex": {
-      "price": 78134.74
+      "price": 78151.45
     },
     "india_cpi": {
       "status": "manual_update_monthly_mospi"

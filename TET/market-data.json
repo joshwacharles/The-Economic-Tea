@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-23T22:02:06.200058+00:00",
+  "last_updated_utc": "2026-07-23T23:55:24.229276+00:00",
   "markets": {
     "dow_jones": {
       "price": "520.8100",
@@ -220,7 +220,7 @@
     },
     "HEROMOTOCO.NS": {
       "name": "Hero MotoCorp",
-      "price": 5173.8
+      "price": 5098.8
     },
     "SHRIRAMFIN.NS": {
       "name": "Shriram Finance",

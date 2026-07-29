@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-29T22:56:16.615831+00:00",
+  "last_updated_utc": "2026-07-29T23:57:53.642769+00:00",
   "markets": {
     "dow_jones": {
       "price": "521.2600",
@@ -120,7 +120,7 @@
     },
     "ULTRACEMCO.NS": {
       "name": "UltraTech Cement",
-      "price": 11998.0
+      "price": 11758.0
     },
     "HCLTECH.NS": {
       "name": "HCL Technologies",

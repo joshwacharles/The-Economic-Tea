@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-02T19:01:09.257803+00:00",
+  "last_updated_utc": "2026-08-02T20:46:42.183955+00:00",
   "markets": {
     "dow_jones": {
       "price": "524.3200",
@@ -172,7 +172,7 @@
     },
     "GRASIM.NS": {
       "name": "Grasim Industries",
-      "price": 3096.0
+      "price": 3100.8
     },
     "TECHM.NS": {
       "name": "Tech Mahindra",
@@ -192,7 +192,7 @@
     },
     "SBILIFE.NS": {
       "name": "SBI Life Insurance",
-      "price": 1890.5
+      "price": 1882.0
     },
     "HDFCLIFE.NS": {
       "name": "HDFC Life Insurance",
@@ -208,7 +208,7 @@
     },
     "BAJAJ-AUTO.NS": {
       "name": "Bajaj Auto",
-      "price": 11519.0
+      "price": 11520.5
     },
     "BRITANNIA.NS": {
       "name": "Britannia Industries",
@@ -232,7 +232,7 @@
     },
     "TRENT.NS": {
       "name": "Trent",
-      "price": 3001.0
+      "price": 3005.9
     },
     "INDUSINDBK.NS": {
       "name": "IndusInd Bank",

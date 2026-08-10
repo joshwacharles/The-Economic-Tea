@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-10T19:51:25.968511+00:00",
+  "last_updated_utc": "2026-08-10T20:35:37.739919+00:00",
   "markets": {
     "dow_jones": {
       "price": "539.6200",
@@ -25,8 +25,7 @@
       "last_refreshed": "2026-08-10 18:49:01"
     },
     "nifty_50": {
-      "status": "fetch_failed",
-      "error": "Too Many Requests. Rate limited. Try after a while."
+      "price": 24583.8
     },
     "sensex": {
       "price": 78542.44

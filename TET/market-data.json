@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-12T22:33:53.178423+00:00",
+  "last_updated_utc": "2026-08-12T23:34:29.400961+00:00",
   "markets": {
     "dow_jones": {
       "price": "537.2800",
@@ -128,7 +128,7 @@
     },
     "BEL.NS": {
       "name": "Bharat Electronics",
-      "price": 405.7
+      "price": 405.15
     },
     "TATAMOTORS.NS": {
       "name": "Tata Motors",

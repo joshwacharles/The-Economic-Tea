@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-13T23:34:58.258684+00:00",
+  "last_updated_utc": "2026-08-14T01:22:56.318650+00:00",
   "markets": {
     "dow_jones": {
       "price": "537.1500",
@@ -200,7 +200,7 @@
     },
     "APOLLOHOSP.NS": {
       "name": "Apollo Hospitals",
-      "price": 8600.0
+      "price": 8590.0
     },
     "DIVISLAB.NS": {
       "name": "Divi's Laboratories",

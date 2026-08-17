@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-17T12:31:50.051915+00:00",
+  "last_updated_utc": "2026-08-17T13:34:54.873118+00:00",
   "markets": {
     "dow_jones": {
       "price": "536.8000",
@@ -108,7 +108,7 @@
     },
     "M&M.NS": {
       "name": "Mahindra & Mahindra",
-      "price": 3390.4
+      "status": "no_data"
     },
     "ITC.NS": {
       "name": "ITC",

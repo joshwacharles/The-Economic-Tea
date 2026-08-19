@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-08-19T02:15:24.419811+00:00",
+  "last_updated_utc": "2026-08-19T03:40:47.562181+00:00",
   "markets": {
     "dow_jones": {
       "price": "532.9100",
@@ -25,7 +25,7 @@
       "last_refreshed": "2026-08-19 00:55:05"
     },
     "nifty_50": {
-      "price": 24154.9
+      "price": 24152.05
     },
     "sensex": {
       "price": 77235.46

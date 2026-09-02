@@ -1,28 +1,28 @@
 {
-  "last_updated_utc": "2026-09-01T22:56:12.468482+00:00",
+  "last_updated_utc": "2026-09-02T00:47:55.793688+00:00",
   "markets": {
     "dow_jones": {
-      "price": "531.5700",
-      "change": "-3.4900",
-      "change_percent": "-0.6523%"
+      "price": "527.7500",
+      "change": "-3.8200",
+      "change_percent": "-0.7186%"
     },
     "sp500": {
-      "price": "767.0500",
-      "change": "-2.3000",
-      "change_percent": "-0.2990%"
+      "price": "761.7800",
+      "change": "-5.2700",
+      "change_percent": "-0.6870%"
     },
     "crude_oil_wti": {
       "date": "2026-08-25",
       "value": "83.9"
     },
     "gold_gld_proxy": {
-      "price": "408.4200",
-      "change": "-0.4700",
-      "change_percent": "-0.1149%"
+      "price": "396.7500",
+      "change": "-11.6700",
+      "change_percent": "-2.8574%"
     },
     "usd_inr": {
-      "rate": "94.94155821",
-      "last_refreshed": "2026-09-01 12:58:49"
+      "rate": "94.94454565",
+      "last_refreshed": "2026-09-02 00:48:44"
     },
     "nifty_50": {
       "price": 24055.8
@@ -116,7 +116,7 @@
     },
     "NTPC.NS": {
       "name": "NTPC",
-      "price": 327.5
+      "price": 324.0
     },
     "ULTRACEMCO.NS": {
       "name": "UltraTech Cement",

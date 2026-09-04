@@ -1,28 +1,28 @@
 {
-  "last_updated_utc": "2026-09-03T22:08:40.639555+00:00",
+  "last_updated_utc": "2026-09-04T00:38:27.414041+00:00",
   "markets": {
     "dow_jones": {
-      "price": "530.6200",
-      "change": "2.8700",
-      "change_percent": "0.5438%"
+      "price": "536.9300",
+      "change": "6.3100",
+      "change_percent": "1.1892%"
     },
     "sp500": {
-      "price": "765.1600",
-      "change": "3.3800",
-      "change_percent": "0.4437%"
+      "price": "773.1700",
+      "change": "8.0100",
+      "change_percent": "1.0468%"
     },
     "crude_oil_wti": {
       "date": "2026-09-01",
       "value": "91.48"
     },
     "gold_gld_proxy": {
-      "price": "402.7800",
-      "change": "6.0300",
-      "change_percent": "1.5198%"
+      "price": "410.2200",
+      "change": "7.4400",
+      "change_percent": "1.8472%"
     },
     "usd_inr": {
-      "rate": "94.47549245",
-      "last_refreshed": "2026-09-03 12:29:36"
+      "rate": "94.47539621",
+      "last_refreshed": "2026-09-04 00:39:16"
     },
     "nifty_50": {
       "price": 23873.45
@@ -156,11 +156,11 @@
     },
     "ONGC.NS": {
       "name": "ONGC",
-      "price": 236.0
+      "price": 235.0
     },
     "COALINDIA.NS": {
       "name": "Coal India",
-      "price": 420.05
+      "price": 414.8
     },
     "NESTLEIND.NS": {
       "name": "Nestle India",

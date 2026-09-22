@@ -1,28 +1,28 @@
 {
-  "last_updated_utc": "2026-09-21T21:34:28.577971+00:00",
+  "last_updated_utc": "2026-09-22T00:29:58.343882+00:00",
   "markets": {
     "dow_jones": {
-      "price": "515.8800",
-      "change": "-1.2746",
-      "change_percent": "-0.2465%"
+      "price": "519.7800",
+      "change": "3.9000",
+      "change_percent": "0.7560%"
     },
     "sp500": {
-      "price": "761.6900",
-      "change": "0.9764",
-      "change_percent": "0.1284%"
+      "price": "773.5000",
+      "change": "11.8100",
+      "change_percent": "1.5505%"
     },
     "crude_oil_wti": {
       "date": "2026-09-15",
       "value": "107.02"
     },
     "gold_gld_proxy": {
-      "price": "401.1700",
-      "change": "2.8100",
-      "change_percent": "0.7054%"
+      "price": "398.3800",
+      "change": "-2.7900",
+      "change_percent": "-0.6955%"
     },
     "usd_inr": {
-      "rate": "95.86327152",
-      "last_refreshed": "2026-09-21 00:46:34"
+      "rate": "95.80589143",
+      "last_refreshed": "2026-09-22 00:30:47"
     },
     "nifty_50": {
       "price": 23414.3

@@ -2,18 +2,25 @@ name: Keep Alive
 
 on:
   schedule:
-    - cron: '0 6 */5 * *'   # runs every 3 days at 6 AM UTC
-  workflow_dispatch:         # lets you also run it manually anytime
+    - cron: "0 6 * * *"
+    - cron: "0 18 * * *"
+  workflow_dispatch:
 
 jobs:
   ping:
     runs-on: ubuntu-latest
+    env:
+      SUPABASE_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
     steps:
-      - name: Ping the website
-        run: curl -sSf https://the-economic-tea.pages.dev > /dev/null
+      - name: Ping website
+        run: curl -fsS -o /dev/null https://the-economic-tea.pages.dev
 
-      - name: Ping the database
+      - name: Write heartbeat to database
         run: |
-          curl -sSf "https://jxpbrpzdjkiassozwiuh.supabase.co/rest/v1/articles?select=id&limit=1" \
-            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
-            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}"
+          NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          curl -fsS -X PATCH "https://jxpbrpzdjkiassozwiuh.supabase.co/rest/v1/heartbeat?id=eq.1" \
+            -H "apikey: $SUPABASE_KEY" \
+            -H "Authorization: Bearer $SUPABASE_KEY" \
+            -H "Content-Type: application/json" \
+            -H "Prefer: return=representation" \
+            -d "{\"last_ping\": \"$NOW\"}"

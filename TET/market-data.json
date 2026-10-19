@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-19T11:50:36.702084+00:00",
+  "last_updated_utc": "2026-10-19T18:10:25.404768+00:00",
   "markets": {
     "dow_jones": {
       "price": "519.1000",
@@ -21,8 +21,8 @@
       "change_percent": "-0.1829%"
     },
     "usd_inr": {
-      "rate": "94.95126364",
-      "last_refreshed": "2026-10-19 00:42:47"
+      "rate": "94.91558752",
+      "last_refreshed": "2026-10-19 18:11:15"
     },
     "nifty_50": {
       "price": 22888.95

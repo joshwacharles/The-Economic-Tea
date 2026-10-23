@@ -1,28 +1,28 @@
 {
-  "last_updated_utc": "2026-10-22T21:06:21.338061+00:00",
+  "last_updated_utc": "2026-10-23T00:21:04.398131+00:00",
   "markets": {
     "dow_jones": {
-      "price": "527.7000",
-      "change": "3.3400",
-      "change_percent": "0.6370%"
+      "price": "527.8900",
+      "change": "0.1900",
+      "change_percent": "0.0360%"
     },
     "sp500": {
-      "price": "773.0900",
-      "change": "4.0400",
-      "change_percent": "0.5253%"
+      "price": "763.9600",
+      "change": "-9.1300",
+      "change_percent": "-1.1810%"
     },
     "crude_oil_wti": {
       "date": "2026-10-20",
       "value": "107.89"
     },
     "gold_gld_proxy": {
-      "price": "378.9500",
-      "change": "1.3000",
-      "change_percent": "0.3442%"
+      "price": "369.0000",
+      "change": "-9.9500",
+      "change_percent": "-2.6257%"
     },
     "usd_inr": {
-      "rate": "94.80879233",
-      "last_refreshed": "2026-10-22 12:51:11"
+      "rate": "94.80858371",
+      "last_refreshed": "2026-10-23 00:21:53"
     },
     "nifty_50": {
       "price": 22687.65
@@ -176,7 +176,7 @@
     },
     "TECHM.NS": {
       "name": "Tech Mahindra",
-      "price": 1829.1
+      "price": 1814.1
     },
     "HINDALCO.NS": {
       "name": "Hindalco Industries",

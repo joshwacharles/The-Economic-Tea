@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-10-28T19:15:02.793560+00:00",
+  "last_updated_utc": "2026-10-28T23:47:53.929615+00:00",
   "markets": {
     "dow_jones": {
       "price": "523.2800",
@@ -224,7 +224,7 @@
     },
     "SHRIRAMFIN.NS": {
       "name": "Shriram Finance",
-      "price": 832.55
+      "price": 826.05
     },
     "TATACONSUM.NS": {
       "name": "Tata Consumer Products",

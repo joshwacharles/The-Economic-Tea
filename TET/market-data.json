@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-17T09:59:59.652918+00:00",
+  "last_updated_utc": "2026-11-17T19:01:51.183475+00:00",
   "markets": {
     "dow_jones": {
       "price": null,
@@ -28,7 +28,7 @@
       "price": 25387.4
     },
     "sensex": {
-      "price": 82628.04
+      "price": 82532.19
     },
     "india_cpi": {
       "status": "manual_update_monthly_mospi"

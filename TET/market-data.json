@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-11-27T23:09:02.768310+00:00",
+  "last_updated_utc": "2026-11-28T05:54:24.457809+00:00",
   "markets": {
     "dow_jones": {
       "price": "495.8000",
@@ -176,7 +176,7 @@
     },
     "TECHM.NS": {
       "name": "Tech Mahindra",
-      "price": 1813.9
+      "price": 906.95
     },
     "HINDALCO.NS": {
       "name": "Hindalco Industries",
